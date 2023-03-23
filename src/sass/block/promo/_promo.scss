@@ -1,0 +1,125 @@
+.promo {
+    height: 1080px;
+    width: 1920px;
+    background: url('../../../img/01-home/bg.png') center center/cover no-repeat;
+    display: block;
+    margin: 0 auto;
+    margin-top: -150px;
+    &__header {
+        padding-top: 342px;
+        padding-left: 250px;
+        &-1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 61px;
+            color: #FFFFFF;
+            &-1 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 98px;
+                display: block;
+                margin: 0 auto;
+                margin-top: -100px;
+                margin-left: 480px;
+            }
+        }
+        &-2 {
+            margin-top: -15px;
+            font-family: 'Adobe Garamond Pro', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 154px;
+            line-height: 185px;
+            letter-spacing: 0.07em;
+            color: #FFFFFF;
+        }
+        &-3 {
+            margin-top: -30px;
+            font-family: 'Adobe Garamond Pro' , sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 72px;
+            letter-spacing: 0.4em;
+            color: #FFFFFF;
+        }
+        &-4 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+    }
+    &__btn {
+        margin-top: 125px;
+        :hover {
+            transform: translateY(-7px);
+            transition: 0.6s all;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 268px;
+            height: 78px;
+            border: none;
+            border-radius: 9px;
+            background-color: $main-color;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        &-Box {
+            display: block;
+            margin: 0 auto;
+            width: 203px;
+            height: 29;
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+    }
+    &__scroll {
+        display: block;
+        width: 79px;
+        height: 106px;
+        margin: 0 auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__text {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+        }
+        &__img {
+            margin-top: 10px;
+            cursor: pointer;
+            :hover {
+                transform: translateY(5px);
+                transition: 0.6s all;
+            }
+        }
+    }
+}
+.promo-1 {
+    background: url('../../../img/02-facillities/bg.png') center center/cover no-repeat;
+}
+.promo-2 {
+    background: url('../../../img/03-rooms/bg.png') center center/cover no-repeat;
+}
+.promo-3 {
+    background: #14274A;
+    height: 465px;
+}
+

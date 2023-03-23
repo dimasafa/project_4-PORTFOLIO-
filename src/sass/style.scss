@@ -1,0 +1,22 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+@import 'block/menu/menu';
+@import 'block/promo/promo';
+@import 'block/01.explore/explore';
+@import 'block/feedback/feedback';
+@import 'block/footer/footer';
+@import 'block/02.facilities/Facilities';
+@import 'block/03.rooms/rooms';
+@import 'block/04.contact/contact';
+@import 'block/modal/modal.scss';
+@import 'block/media';

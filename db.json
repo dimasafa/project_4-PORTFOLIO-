@@ -1,0 +1,140 @@
+{
+  "feedbacks": [
+    {
+      "text": "“Calm, Serene, Retro - What a way to relax and enjoy”",
+      "name": "Mr. and Mrs. Baxter, UK",
+      "parent": ".feedback__wrapper",
+      "id": 1
+    },
+    {
+      "text": "“Everything was amazing. This is exactly what I dreamed of”",
+      "name": "Mr. Kane, USA",
+      "parent": ".feedback__wrapper",
+      "id": 2
+    },
+    {
+      "text": "“This is the best hotel I've been to lately. I will definitely come back here.”",
+      "name": "Andrew Johnson, UK",
+      "parent": ".feedback__wrapper",
+      "id": 3
+    },
+    {
+      "text": "“Alles super! Perfect!”",
+      "name": "Dmitrii Afanasev",
+      "parent": ".feedback__wrapper",
+      "id": 4
+    },
+    {
+      "text": "“Breakfast was very very good!! Variation of foods, incl. pancakes!!”",
+      "name": "Alex Bush, USA",
+      "parent": ".feedback__wrapper",
+      "id": 5
+    },
+    {
+      "text": "“Sehr schöne Platz! Gute Service”",
+      "name": "Anna Soktoeva",
+      "parent": ".feedback__wrapper",
+      "id": 6
+    }
+  ],
+  "reserve": [
+    {
+      "room": "Single Room",
+      "number": "4",
+      "name": "dfgfdg",
+      "email": "dfgfdg@gmail.com",
+      "company": "+49656566",
+      "checkIn": "03/15/2023",
+      "checkOut": "03/07/2023",
+      "id": 1
+    },
+    {
+      "room": "Twin Room",
+      "number": "9",
+      "name": "alex",
+      "email": "alex@gmail.com",
+      "company": "+4656565332",
+      "checkIn": "03/15/2023",
+      "checkOut": "03/21/2023",
+      "id": 2
+    },
+    {
+      "room": "Double Room",
+      "number": "6",
+      "name": "alex",
+      "email": "alex@gmail.com",
+      "company": "+4656565332",
+      "checkIn": "03/29/2023",
+      "checkOut": "03/31/2023",
+      "id": 3
+    },
+    {
+      "room": "Single Room",
+      "number": "3",
+      "name": "alex",
+      "email": "dimsad@gmail.com",
+      "company": "+4656565332",
+      "checkIn": "03/01/2023",
+      "checkOut": "03/21/2023",
+      "id": 4
+    }
+  ],
+  "kontakte": [
+    {
+      "name": "dimas",
+      "email": "sdsd@gmail.com",
+      "message": "hello",
+      "id": 1
+    },
+    {
+      "name": "dimas",
+      "email": "sdsd@gmail.com",
+      "message": "sdsdsdsdsd",
+      "id": 2
+    },
+    {
+      "name": "alex",
+      "email": "dimas@gmail.com",
+      "message": "hello",
+      "id": 3
+    }
+  ],
+  "subscribe": [
+    {
+      "email": "sdsd@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "dimas@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "sdsd@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "sdsd@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "sdsd@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "dimas@gmail.com",
+      "id": 6
+    },
+    {
+      "email": "dimsad@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "sdfsdfs@gmail.com",
+      "id": 8
+    },
+    {
+      "email": "dimas@gmail.com",
+      "id": 9
+    }
+  ]
+}

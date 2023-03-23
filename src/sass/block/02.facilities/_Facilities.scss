@@ -1,0 +1,63 @@
+.facilities {
+    display: block;
+    margin: 0 auto;
+    width: 1920px;
+    height: auto;
+    &__wrapper {
+        width: 1580px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+        margin-top: 82px;
+    }
+    &__header {
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: 0.05em;
+        color: #14274A;
+    }
+    &__subheader {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #14274A;
+        margin-top: 34px;
+        margin-bottom: 82px;
+    }
+    &__box {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 1580px;
+        height: 1052px;
+        margin-bottom: 186px;
+        &-1 {
+            margin-bottom: 0px;
+        }
+    }
+    &__titleBox {
+        position: absolute;
+        display: block;
+        width: 684px;
+        height: 75px;
+        background-color: #ffffff;
+        margin-top: -75px;
+        margin-left: 448px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #14274A;
+    }
+}

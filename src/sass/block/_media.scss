@@ -1,0 +1,1727 @@
+@media (max-width: 1800px) {
+    .menu {
+        &__box {
+            justify-content: start;
+            nav {
+                padding-left: 500px;
+                ul {
+                    li {
+                        a {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .promo {
+        width: 100vw;
+        &__header {
+            &-1 {
+                &-1 {
+                    margin: 0 auto;
+                    font-size: 60px;
+                    margin-top: -90px;
+                }
+            }
+        }
+    }
+    .promo-3 {
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1650px) {
+    .menu {
+        width: 1100px;
+        &__box {
+            nav {
+                width: 500px;
+                padding-left: 200px;
+                ul {
+                    li {
+                        a {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .promo {
+        &__header {
+            padding-top: 260px;
+            padding-left: 150px;
+            &-1 {
+                font-size: 40px;
+                &-1 {
+                    margin: 0 auto;
+                    font-size: 60px;
+                    margin-top: -50px;
+                }
+            }
+            &-2 {
+                font-size: 120px;
+                line-height: 145px;
+            }
+            &-3 {
+                font-size: 40px;
+                line-height: 52px;
+            }
+            &-4 {
+                font-size: 20px;
+            }
+        }
+        &__btn {
+            margin-top: 150px;
+            button {
+                width: 250px;
+                height: 70px;
+                font-size: 20px;
+            }
+        }
+        &__scroll {
+            margin-top: 110px;
+        }
+    }
+    .promo-3 {
+        h2 {
+            text-align: center;
+        }
+    }
+    .explore {
+        height: auto;
+        &__header {
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        &__box {
+            width: 100vw;
+            margin-bottom: 60px;
+            height: auto;
+        }
+        &__line-1, &__line-2 {
+            margin-left: 60px;
+        }
+        &__line-1 {
+            margin-top: 50px;
+            height: 285px;
+        }
+        &__line-2 {
+            margin-top: 45px;
+            height: 320px;
+        }
+        &__text {
+            width: 60%;
+            &-title-1, &-title-2 {
+                font-size: 40px;
+            }
+            &-title-1 {
+                padding-top: 20px;
+            }
+            &-title-2 {
+                padding-top: 20px;
+            }
+            &-descr-1, &-descr-2 {
+                font-size: 20px;
+            }
+            &-descr-1 {
+                margin-top: 25px;
+            }
+            &-descr-2 {
+                margin-top: 12px;
+            }
+        }
+        &__text-btn {
+            button {
+                width: 220px;
+                height: 55px;
+                font-size: 18px;
+            }
+        }
+        &__img {
+            margin-top: 50px;
+            margin-right: 50px;
+            width: 40%;
+            height: 300px;
+            align-self: start;
+            object-fit: cover;
+        }
+    }
+    .feedback {
+        max-width: auto;
+        height: auto;
+        margin-bottom: 50px;
+        &__content {
+            display: block;
+            margin: 0 auto;
+            width: 1000px;
+            height: 257px;
+            padding-top: 50px;
+        }
+        &__header {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        &__text-active {
+            margin-top: 18px;
+            font-size: 25px;
+            line-height: 30px;
+        }
+        &__name-active {
+            margin-top: 15px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__btn {
+            margin-top: 0px;
+            img {
+                cursor: pointer;
+                width: 35%;
+            }
+        }
+    }
+    .footer {
+        &__content {
+            width: 1100px;
+        }
+        &__adress-title {
+            font-size: 23px;
+        }
+        &__adress-subtitle {
+            font-size: 8px;
+        }
+        &__adress-adress {
+            font-size: 12px;
+        }
+        &__link {
+            margin-top: 10px;
+            height: 90px;
+            &-text {
+                font-size: 14px;
+            }
+        }
+        &__linkBox {
+            padding-top: 15px;
+            height: 78px;
+            &-facebookText, &-twitterText, &-instagramText {
+                font-size: 14px;
+            }
+        }
+        &__subscribe {
+            width: 260px;
+            margin-top: 15px;
+        }
+        &__subscribe-text {
+            font-size: 16px;
+        }
+        &__subscribeInput {
+            margin-top: 10px;
+            input {
+                width: 180px;
+                height: 40px;
+                font-size: 16px;
+            }
+            input::placeholder {
+                font-size: 14px;
+            }
+            button {
+                width: 80px;
+                height: 46px;
+            }
+        }
+    }
+
+    .facilities {
+        width: 100vw;
+        &__wrapper {
+            width: 90vw;
+        }
+        &__header {
+            font-size: 50px;
+        }
+        &__subheader {
+            font-size: 17px;
+            margin-bottom: 62px;
+        }
+        &__box {
+            width: 90vw;
+            height: auto;
+            margin-bottom: 70px;
+            img {
+                width: 90vw;
+            }
+        }
+        &__titleBox {
+            width: 500px;
+            height: 65px;
+            margin-top: -68px;
+            margin-left: 30%;
+    
+        }
+        &__title {
+            font-size: 40px;
+        }
+    }
+
+    .rooms {
+        width: 100vw;
+        height: auto;
+        &__wrapper {
+            width: 1080px;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 50px;
+        }
+        &__subheader {
+            font-size: 17px;
+            margin-bottom: 62px;
+        }
+        &__roomBox {
+            width: 1080px;
+            height: 950px;
+        }
+        &__img-active, &__img_1-active, &__img_2-active {
+            width: 1080px;
+        }
+        &__img, &__img_1, &__img_2 {
+            display: none;
+        }
+        &__sliderBox, &__sliderBox_1, &__sliderBox_2 {
+            width: 80px;
+        }
+        &__slider-active, &__slider_1-active, &__slider_2-active {
+            height: 15px;
+            width: 15px;
+        }
+        &__slider, &__slider_1, &__slider_2 {
+            height: 10px;
+            width: 10px;
+        }
+        &__img_1-active {
+            height: 720px;
+        }
+        &__line {
+            width: 1080px;
+        }
+        &__lineText {
+            font-size: 50px;
+        }
+        &__view {
+            width: 900px;
+        }
+        &__details {
+            width: 300px;
+            &-text {
+                font-size: 20px;
+            }
+            &-img {
+                padding-top: 5px;
+                height: 80%;
+                }
+            }
+        &__btn {
+            button {
+                height: 60px;
+                width: 200px;
+    
+                font-size: 20px;
+            }
+        }
+    }
+    .contact {
+        height: auto;
+        width: 100vw;
+        &__googlekarte iframe {
+            width: 1000px;
+            height: 800px;
+          }
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 80px;
+            width: 80vw;
+        }
+        &__header {
+            font-size: 50px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+        &__inputWrapper {
+            margin-top: 80px;
+        }
+        &__text {
+            height: auto;
+            width: 35vw;
+        }
+        &__adress, &__index, &__phone, &__email {
+            font-size: 22px;
+        }
+        &__map {
+            margin-top: 20px;
+            &-text {
+                font-size: 30px;
+            } 
+            img {
+                padding-top: 10px;
+                margin-left: 30px;
+                height: 80%;
+                width: 20%;
+            }
+        }
+        &__phone {
+            margin-top: 20px;
+        }
+        &__input {
+            width: 45vw;
+            height: auto;
+            &-text {
+                font-size: 20px;
+            }
+            &-1-input {
+                height: 50px;
+                width: 45vw;
+                margin-bottom: 20px;
+    
+                font-size: 20px;
+            }
+            &-2-input {
+                height: 250px;
+                width: 45vw;
+    
+                font-size: 20px;
+            }
+            &-btn {
+                button {
+                    height: 65px;
+                    width: 120px;
+                    margin-left: 37vw;
+    
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu {
+        width: 90vw;
+        &__box {
+            img {
+                height: 110px;
+            }
+            nav {
+                margin-top: 50px;
+                width: 40vw;
+                padding-left: 20vw;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            padding-top: 260px;
+            padding-left: 100px;
+            &-1 {
+                font-size: 35px;
+                &-1 {
+                    margin: 0 auto;
+                    font-size: 50px;
+                    margin-top: -50px;
+                }
+            }
+            &-2 {
+                font-size: 100px;
+                line-height: 125px;
+            }
+            &-3 {
+                font-size: 30px;
+                line-height: 52px;
+            }
+            &-4 {
+                font-size: 17px;
+            }
+        }
+        &__btn {
+            margin-top: 250px;
+            button {
+                width: 220px;
+                height: 60px;
+                font-size: 20px;
+            }
+            &-Box {
+                width: 180px;
+                height: 29px;
+            }
+        }
+        &__scroll {
+            margin-top: 110px;
+            &__text {
+                font-size: 22px;
+            }
+            &__img {
+                margin-top: 15px;
+                img {
+                    height: 70%;
+                }
+            }
+        }
+    }
+    .promo-3 {
+        height: 365px;
+        h2 {
+            text-align: center;
+        }
+    }
+    .explore {
+        height: auto;
+        &__header {
+            font-size: 25px;
+        }
+        &__box {
+            width: 100vw;
+            margin-bottom: 30px;
+            height: auto;
+        }
+        &__line-1, &__line-2 {
+            margin-left: 60px;
+        }
+        &__line-1 {
+            margin-top: 60px;
+            height: 285px;
+        }
+        &__line-2 {
+            margin-top: 60px;
+            height: 320px;
+        }
+        &__text {
+            width: 60%;
+            &-title-1, &-title-2 {
+
+                font-size: 30px;
+            }
+            &-title-1 {
+                padding-top: 40px;
+            }
+            &-title-2 {
+                padding-top: 40px;
+            }
+            &-descr-1, &-descr-2 {
+                font-size: 16px;
+            }
+            &-descr-1 {
+                margin-top: 15px;
+            }
+            &-descr-2 {
+                margin-top: 15px;
+            }
+        }
+        &__text-btn {
+            button {
+                width: 220px;
+                height: 55px;
+                font-size: 18px;
+            }
+        }
+        &__img {
+            margin-top: 50px;
+            margin-right: 50px;
+            width: 40%;
+            height: 300px;
+            align-self: start;
+            object-fit: cover;
+        }
+    }
+    .footer {
+        &__content {
+            width: 90vw;
+        }
+    }
+
+    .facilities {
+        &__wrapper {
+            width: 90vw;
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 14.5px;
+            margin-bottom: 62px;
+        }
+        &__titleBox {
+            margin-left: 25%;
+    
+        }
+        &__title {
+            font-size: 35px;
+        }
+    }
+    .rooms {
+        &__wrapper {
+            margin-top: 60px;
+            width: 900px;
+        }
+        &__header {
+            font-size: 40px;
+            
+        }
+        &__subheader {
+            font-size: 15px;
+            margin-bottom: 50px;
+            margin-top: 10px;
+        }
+        &__roomBox {
+            height: 770px;
+            width: 900px;
+        }
+        &__sliderBox, &__sliderBox_1, &__sliderBox_2 {
+            &-1 {
+                margin-top: -140px;
+            }
+        }
+        &__img-active, &__img_1-active, &__img_2-active {
+            width: 900px;
+        }
+        &__line {
+            margin-top: 58px;
+            height: 117px;
+            width: 900px;
+        }
+        &__img_1-active {
+            height: 600px;
+        }
+        &__lineText {
+            font-size: 35px;
+        }
+        &__view {
+            width: 800px;
+            margin-top: 230px;
+        }
+    }
+    .contact {
+        &__googlekarte iframe {
+            width: 80vw;
+            height: 60vw;
+          }
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__adress, &__index, &__phone, &__email {
+            font-size: 19px;
+        }
+        &__map {
+            margin-top: 10px;
+            &-text {
+                font-size: 25px;
+            } 
+        }
+        &__phone {
+            margin-top: 10px;
+        }
+        &__input {
+            &-text {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .menu {
+        width: 90vw;
+        &__box {
+            img {
+                height: 100px;
+            }
+            nav {
+                margin-top: 50px;
+                width: 40vw;
+                padding-left: 15vw;
+                ul {
+                    li {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        &__hamburger {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            &-1 {
+                &-1 {
+                    margin: 0 auto;
+                    margin-top: -120px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .promo-3 {
+        height: 300px;
+        h2 {
+            text-align: center;
+        }
+    }
+    .explore {
+        &__header {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        &__box {
+            margin-bottom: 10px;
+            height: auto;
+        }
+        &__line-1, &__line-2 {
+            margin-left: 60px;
+        }
+        &__line-1 {
+            margin-top: 30px;
+            height: 285px;
+        }
+        &__line-2 {
+            margin-top: 30px;
+            height: 320px;
+        }
+        &__text {
+            width: 60%;
+            &-title-1, &-title-2 {
+
+                font-size: 22px;
+            }
+            &-title-1 {
+                padding-top: 0px;
+            }
+            &-title-2 {
+                padding-top: 0px;
+            }
+            &-descr-1, &-descr-2 {
+                font-size: 13px;
+            }
+            &-descr-1 {
+                margin-top: 10px;
+            }
+            &-descr-2 {
+                margin-top: 10px;
+            }
+        }
+        &__text-btn {
+            button {
+                width: 200px;
+                height: 45px;
+                font-size: 15px;
+            }
+        }
+        &__img {
+            margin-top: 20px;
+        }
+    }
+    .feedback {
+        height: 250px;
+        &__content {
+            width: 750px;
+            padding-top: 20px;
+        }
+        &__header {
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        &__text-active {
+            margin-top: 14px;
+            font-size: 22px;
+        }
+        &__name-active {
+            margin-top: 12px;
+            font-size: 18px;
+        }
+        &__btn {
+            top: 200px;
+            img {
+                cursor: pointer;
+                width: 35%;
+            }
+        }
+    }
+    .footer {
+        &__content {
+            padding-top: 120px;
+            width: 90vw;
+        }
+        &__adress {
+            width: 100px;
+        }
+        &__adress-name {
+            width: 100px;
+        }
+        &__adress-title {
+            font-size: 20px;
+        }
+        &__adress-subtitle {
+            font-size: 7px;
+        }
+        &__adress-adress {
+            font-size: 10px;
+        }
+        &__link {
+            margin-top: 20px;
+            padding-left: 20px;
+            height: 80px;
+            &-text {
+                font-size: 12px;
+            }
+        }
+        &__linkBox {
+            padding-top: 20px;
+            height: 70px;
+            &-facebookText, &-twitterText, &-instagramText {
+                font-size: 14px;
+            }
+        }
+        &__subscribe {
+            width: 180px;
+            margin-top: 20px;
+        }
+        &__subscribe-text {
+            font-size: 12px;
+        }
+        &__subscribeInput {
+            margin-top: 10px;
+            input {
+                padding-left: 10px;
+                width: 110px;
+                height: 30px;
+                font-size: 11px;
+            }
+            input::placeholder {
+                font-size: 11px;
+            }
+            button {
+                width: 50px;
+                height: 37px;
+            }
+        }
+    }
+    .facilities {
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 15px;
+            font-size: 11px;
+            margin-bottom: 62px;
+        }
+        &__titleBox {
+            width: 300px;
+            height: 45px;
+            margin-top: -45px;
+            left: auto;
+            right: auto;
+    
+        }
+        &__title {
+            font-size: 28px;
+        }
+    }
+    .rooms {
+        &__wrapper {
+            margin-top: 40px;
+            width: 750px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 11px;
+            margin-bottom: 50px;
+            margin-top: 10px;
+        }
+        &__roomBox {
+            height: 650px;
+            width: 750px;
+        }
+        &__sliderBox, &__sliderBox_1, &__sliderBox_2 {
+            margin-top: -120px;
+            &-1 {
+                margin-top: -77px;
+            }
+        }
+        &__slider-active, &__slider_1-active, &__slider_2-active {
+            height: 14px;
+            width: 14px;
+        }
+        &__slider, &__slider_1, &__slider_2 {
+            height: 10px;
+            width: 10px;
+        }
+        &__img-active, &__img_1-active, &__img_2-active {
+            width: 750px;
+        }
+        &__line {
+            width: 750px;
+            margin-top: 30px;
+            height: 80px;
+        }
+        &__img_1-active {
+            height: 500px;
+        }
+        &__lineText {
+            font-size: 30px;
+        }
+        &__view {
+            width: 680px;
+            margin-top: 150px;
+        }
+    }
+    .contact {
+        &__wrapper {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__text {
+            margin-top: 50px;
+        }
+        &__adress, &__index, &__phone, &__email {
+            font-size: 14px;
+            line-height: 30px;
+        }
+        &__map {
+            margin-top: 10px;
+            &-text {
+                font-size: 20px;
+            } 
+            img {
+                height: 20px;
+                margin-top: 5px;
+            }
+        }
+        &__phone {
+            margin-top: 10px;
+        }
+        &__input {
+            width: 40vw;
+            &-text {
+                font-size: 17px;
+            }
+            &-1-input {
+                height: 45px;
+                width: 40vw;
+                margin-top: 5px;
+                margin-bottom: 15px;
+    
+                font-size: 14px;
+            }
+            &-2-input {
+                width: 40vw;
+    
+                font-size: 14px;
+            }
+            &-btn {
+                button {
+                    height: 50px;
+                    width: 100px;
+                    margin-left: 25vw;
+    
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        width: 85vw;
+        &__box {
+            nav {
+                display: none;
+            }
+        }
+        &__hamburger {
+            display: block;
+        }
+    }
+    .promo {
+        &__header {
+            padding-top: 260px;
+            padding-left: 60px;
+            &-1 {
+                font-size: 35px;
+                &-1 {
+                    margin: 0 auto;
+                    margin-top: -130px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .promo-3 {
+        height: 250px;
+        h2 {
+            text-align: center;
+        }
+    }
+    .explore {
+        &__header {
+            font-size: 17px;
+        }
+        &__box {
+            margin-bottom: 20px;
+            height: 300px;
+        }
+        &__line-1, &__line-2 {
+            margin-left: 20px;
+        }
+        &__line-1 {
+            margin-top: 30px;
+            height: 200px;
+        }
+        &__line-2 {
+            margin-top: 30px;
+            height: 225px;
+        }
+        &__text {
+            margin-left: 20px;
+            width: 60%;
+            &-title-1, &-title-2 {
+
+                font-size: 19px;
+            }
+            &-title-1 {
+                padding-top: 0px;
+            }
+            &-title-2 {
+                padding-top: 0px;
+            }
+            &-descr-1, &-descr-2 {
+                font-size: 11px;
+                line-height: 25px;
+            }
+            &-descr-1 {
+                margin-top: 10px;
+            }
+            &-descr-2 {
+                margin-top: 10px;
+            }
+        }
+        &__text-btn {
+            button {
+                width: 170px;
+                height: 40px;
+                font-size: 13px;
+            }
+        }
+        &__img {
+            margin-top: 30px;
+            height: 220px;
+        }
+    }
+    .feedback {
+        height: 250px;
+        &__content {
+            width: 550px;
+            padding-top: 20px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__text-active {
+            margin-top: 14px;
+            font-size: 17px;
+        }
+        &__name-active {
+            font-size: 14px;
+        }
+    }
+    .footer {    
+        background: url('../../../img/01-home/bottom-bg.png') center center/cover no-repeat;
+        height: 200px;
+        &__content {
+            padding-top: 60px;
+            width: 90vw;
+        }
+        &__adress {
+            width: 90px;
+        }
+        &__adress-name {
+            width: 90px;
+            margin-bottom: 12px;
+        }
+        &__adress-title {
+            font-size: 20px;
+        }
+        &__adress-subtitle {
+            font-size: 7px;
+        }
+        &__adress-adress {
+            font-size: 8px;
+        }
+        &__link {
+            margin-top: 30px;
+            padding-left: 30px;
+            height: 70px;
+            &-text {
+                font-size: 11px;
+            }
+        }
+        &__linkBox {
+            padding-top: 25px;
+            height: 70px;
+            &-facebookText, &-twitterText, &-instagramText {
+                font-size: 12px;
+                padding-left: 22px;
+            }
+            &-twitterText {
+                padding-left: 13px;
+            }
+            &-instagramText {
+                padding-left: 13px;
+            }
+        }
+        &__subscribe {
+            width: 120px;
+            margin-top: 25px;
+        }
+        &__subscribe-text {
+            font-size: 8px;
+        }
+        &__subscribeInput {
+            margin-top: 10px;
+            input {
+                padding-left: 10px;
+                width: 80px;
+                height: 25px;
+                font-size: 8px;
+            }
+            input::placeholder {
+                font-size: 8px;
+            }
+            button {
+                width: 40px;
+                height: 32px;
+                font-size: 12px;
+            }
+        }
+    }
+    .facilities {
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            margin-top: 15px;
+            font-size: 16px;
+            margin-bottom: 42px;
+        }
+        &__titleBox {
+            width: 250px;
+            height: 40px;
+            margin-top: -40px;
+            left: auto;
+            right: auto;
+    
+        }
+        &__title {
+            font-size: 23px;
+        }
+    }
+    .rooms {
+        &__wrapper {
+            width: 560px;
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        &__roomBox {
+            height: 490px;
+            width: 560px;
+            margin-bottom: 40px;
+        }
+        &__sliderBox, &__sliderBox_1, &__sliderBox_2 {
+            width: 60px;
+            margin-top: -105px;
+            &-1 {
+                margin-top: -70px;
+            }
+        }
+        &__slider-active, &__slider_1-active, &__slider_2-active {
+            height: 14px;
+            width: 14px;
+        }
+        &__slider, &__slider_1, &__slider_2 {
+            height: 10px;
+            width: 10px;
+        }
+        &__line {
+            margin-top: 30px;
+            height: 60px;
+            width: 560px;
+        }
+        &__lineText {
+            font-size: 24px;
+        }
+        &__img-active, &__img_1-active, &__img_2-active {
+            width: 560px;
+        }
+        &__view {
+            width: 500px;
+            margin-top: 120px;
+        }
+        &__img_1-active {
+            height: 375px;
+        }
+        &__details {
+            width: 230px;
+            &-text {
+                font-size: 16px;
+            }
+            &-img {
+                padding-top: 10px;
+                height: 30px;
+                }
+        }
+        &__btn {
+            button {
+                height: 50px;
+                width: 150px;
+    
+                font-size: 16px;
+            }
+        }
+    }
+    .contact {
+        &__wrapper {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__map {
+            margin-top: 10px;
+            &-text {
+                font-size: 18px;
+            } 
+            img {
+                height: 20px;
+                margin-top: 5px;
+            }
+        }
+        &__input {
+            &-text {
+                font-size: 14px;
+            }
+            &-1-input {
+                height: 30px;
+                margin-top: 3px;
+                margin-bottom: 10px;
+    
+                font-size: 12px;
+            }
+            &-2-input {
+                width: 40vw;
+    
+                font-size: 12px;
+            }
+            &-btn {
+                button {
+                    height: 50px;
+                    width: 100px;
+                    margin-left: 25vw;
+    
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .modal {
+        &__dialog {
+            max-width: 400px;
+            margin-left: calc((100vw - 450px) / 2);
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .menu {
+        &__box {
+            img {
+                height: 80px;
+            }
+        }
+        &__hamburger {
+            height: 30px;
+            width: 30px;
+            &-line {
+                height: 3px;
+                width: 30px;
+                margin-top: 7px;
+            }
+            &__menu {
+                width: 90%;
+                &__nav {
+                    li {
+                        a {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+    .promo {
+        height: 800px;
+        &__header {
+            padding-left: 40px;
+            padding-top: 180px;
+            width: 80vw;
+            &-1 {
+                font-size: 20px;
+                &-1 {
+                    margin-top: -90px;
+                    font-size: 25px;
+                    margin-left: 15vw;
+                }
+            }
+            &-2 {
+                font-size: 45px;
+                line-height: 60px;
+            }
+            &-3 {
+                font-size: 20px;
+                line-height: 60px;
+            }
+            &-4 {
+                font-size: 13px;
+                line-height: 25px;
+            }
+        }
+        &__btn {
+            margin-top: 180px;
+            button {
+                width: 200px;
+                height: 60px;
+                font-size: 16px;
+            }
+            &-Box {
+                width: 165px;
+            }
+        }
+        &__scroll {
+            margin-top: 55px;
+            &__text {
+                font-size: 18px;
+            }
+            &__img {
+                margin-top: 10px;
+                img {
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .promo-3 {
+        height: 200px;
+        h2 {
+            text-align: center;
+        }
+    }
+    .explore {
+        &__header {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+        &__box {
+            margin-bottom: 10px;
+            height: 210px;
+            margin-bottom: 20px;
+            width: 90vw;
+            border-radius: 5px;
+            background-color:beige;
+        }
+        &__line-1, &__line-2 {
+            display: none;
+        }
+        &__text {
+            margin-left: 5px;
+            padding-right: 10px;
+            width: 55%;
+            &-title-1, &-title-2 {
+                margin-top: 10px;
+                line-height: 20px;
+                font-size: 12px;
+            }
+            &-title-1 {
+                padding-top: 0px;
+            }
+            &-title-2 {
+                padding-top: 0px;
+            }
+            &-descr-1, &-descr-2 {
+                font-size: 6px;
+                line-height: 18px;
+            }
+            &-descr-1 {
+                margin-top: 10px;
+                width: 130px;
+                margin-bottom: 18px;
+            }
+            &-descr-2 {
+                margin-top: 10px;
+                width: 130px;
+            }
+        }
+        &__text-btn {
+            margin-left: 30vw;
+            button {
+                margin-top: 30px;
+                width: 100px;
+                height: 30px;
+                font-size: 10px;
+
+            }
+        }
+        &__img {
+            margin-top: 40px;
+            width: 45%;
+            height: 45%;
+            margin-left: -30px;
+        }
+    }
+    .feedback {
+        height: 180px;
+        &__content {
+            width: 90vw;
+            padding-top: 0px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__text-active {
+            margin-top: -0px;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        &__name-active {
+            font-size: 10px;
+        }
+        &__btn {
+            top: 170px;
+            width: 80px;
+            left: calc((100% - 75px)  / 2);
+
+        }
+    }
+    .footer {    
+        background: url('../../../img/01-home/bottom-bg.png') center center/cover no-repeat;
+        height: 200px;
+        &__content {
+            padding-top: 60px;
+            width: 90vw;
+        }
+        &__adress {
+            width: 60px;
+        }
+        &__adress-name {
+            width: 75px;
+            margin-bottom: 12px;
+        }
+        &__adress-title {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        &__adress-subtitle {
+            font-size: 7px;
+        }
+        &__adress-adress {
+            font-size: 7px;
+            line-height: 12px;
+        }
+        &__link {
+            display: none;
+        }
+        &__linkBox {
+            padding-top: 25px;
+            height: 70px;
+            width: 100px;
+            padding-left: 50px;
+            img {
+                height: 10px;
+            }
+            &-facebookText, &-twitterText, &-instagramText {
+                font-size: 8px;
+                padding-left: 10px;
+            }
+            &-twitterText {
+                padding-left: 5px;
+            }
+            &-instagramText {
+                padding-left: 5px;
+            }
+        }
+        &__subscribe {
+            width: 85px;
+            margin-top: 30px;
+        }
+        &__subscribe-text {
+            font-size: 6px;
+        }
+        &__subscribeInput {
+            margin-top: 5px;
+            input {
+                padding-left: 5px;
+                width: 70px;
+                height: 25px;
+                font-size: 8px;
+            }
+            input::placeholder {
+                font-size: 7px;
+            }
+            button {
+                width: 20px;
+                height: 32px;
+                font-size: 9px;
+            }
+        }
+    }
+    .facilities {
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 20px;
+            line-height: 50px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 8px;
+            line-height: 18px;
+            margin-bottom: 42px;
+        }
+        &__box {
+            margin-bottom: 20px;
+        }
+        &__titleBox {
+            width: 40vw;
+            height: 32px;
+            margin-top: -32px;
+            left: auto;
+            right: auto;
+    
+        }
+        &__title {
+            font-size: 12px;
+        }
+    }
+    .rooms {
+        &__wrapper {
+            margin-top: 20px;
+            width: 300px;
+        }
+        &__header {
+            font-size: 20px;
+            line-height: 50px;
+        }
+        &__subheader {
+            font-size: 8px;
+            line-height: 18px;
+            margin-bottom: 30px;
+        }
+        &__roomBox {
+            width: 300px;
+            height: 265px;
+            margin-bottom: 20px;
+            border: 0.4px solid #14274A;
+        }
+        &__sliderBox, &__sliderBox_1, &__sliderBox_2 {
+            width: 50px;
+            margin-top: -68px;
+            &-1 {
+                margin-top: -52px;
+            }
+        }
+        &__slider-active, &__slider_1-active, &__slider_2-active {
+            height: 10px;
+            width: 10px;
+        }
+        &__slider, &__slider_1, &__slider_2 {
+            height: 5px;
+            width: 5px;
+        }
+        &__line {
+            margin-top: 18px;
+            height: 40px;
+            width: 300px;
+        }
+        &__lineText {
+            font-size: 20px;
+        }
+        &__img-active, &__img_1-active, &__img_2-active {
+            width: 300px;
+        }
+        &__img_1-active {
+            height: 190px;
+        }
+        &__view {
+            margin-top: 60px;
+            width: 280px;
+        }
+        &__details {
+            width: 80vw;
+            &-text {
+                font-size: 10px;
+                padding-right: 15px;
+
+            }
+            &-img {
+                padding-top: 15px;
+                height: 20px;
+            }
+        }
+        &__btn {
+            button {
+                height: 30px;
+                width: 100px;
+                border-radius: 5px;
+                font-size: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .contact {
+        &__wrapper {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        &__header {
+            font-size: 20px;
+            line-height: 50px;
+        }
+        &__subheader {
+            font-size: 10px;
+            line-height: 18px;
+        }
+        &__inputWrapper {
+            margin-top: 30px;
+        }
+        &__adress, &__index, &__phone, &__email {
+            font-size: 11px;
+            line-height: 20px;
+        }
+        &__map {
+            margin-top: 10px;
+            &-text {
+                font-size: 11px;
+            } 
+            img {
+                height: 10px;
+                width: 20px;
+                margin-top: 10px;
+            }
+        }
+        &__input {
+            width: 30vw;
+            &-text {
+                font-size: 10px;
+                line-height: 15px;
+            }
+            &-1-input {
+                width: 30vw;
+                height: 20px;
+                margin-top: 3px;
+                margin-bottom: 5px;
+                padding-left: 10px;
+                border: 0.4px solid #14274A;
+                font-size: 10px;
+            }
+            &-2-input {
+                width: 30vw;
+                height: 150px;
+                padding-left: 10px;
+                border: 0.4px solid #14274A;
+                font-size: 10px;
+            }
+            &-btn {
+                button {
+                    height: 40px;
+                    width: 100px;
+                    margin-left: 0vw;
+                    margin-top: 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .modal {
+        &__dialog {
+            max-width: 250px;
+            margin-left: calc((100vw - 280px) / 2);
+        }
+        &__content {
+            padding: 20px;
+        }
+        &__title {
+            font-size: 16px;
+        }
+        &__input {
+            margin: 10px auto 10px auto;
+            width: 200px;
+            height: 30px;
+            font-size: 12px;
+        }
+        &__calendar {
+            width: 235px;
+            height: 30px;;
+    
+        }
+        &__check-in, &__check-out {
+            width: 110px;
+            height: 30px;
+            font-size: 12px;
+        }
+    
+        &__input_btn {
+            width: 235px;
+            height: 30px;
+            font-size: 14px;
+        }
+    }
+}

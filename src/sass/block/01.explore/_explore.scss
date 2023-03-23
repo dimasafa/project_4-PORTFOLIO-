@@ -1,0 +1,93 @@
+.explore {
+    height: 1360px;
+    &__header {
+        margin-top: 83px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: #14274A;
+        margin-bottom: 93px;
+    }
+    &__box {
+        display: block;
+        margin: 0 auto;
+        height: 579px;
+        width: 1569px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 69px;
+    }
+    &__line-1, &__line-2 {
+        display: block;
+        width: 1px;
+        background-color: #000;
+    }
+    &__line-1 {
+        margin-top: 120px;
+        height: 320px;
+    }
+    &__line-2 {
+        margin-top: 35px;
+        height: 405px;
+    }
+    &__text {
+        margin-left: 48.5px;
+        width: 563px;
+        height: 449px;
+
+        &-title-1, &-title-2 {
+            font-family: 'Adobe Garamond Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: #14274A;
+        }
+        &-title-1 {
+            padding-top: 100px;
+        }
+        &-title-2 {
+            padding-top: 11px;
+        }
+        &-descr-1, &-descr-2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 40px;
+            color: #14274A;
+        }
+        &-descr-1 {
+            margin-top: 25px;
+        }
+        &-descr-2 {
+            margin-top: 12px;
+        }
+    }
+    &__text-btn {
+        :hover {
+            transform: translateY(-7px);
+            transition: 0.6s all;
+        }
+        button {
+            width: 236px;
+            height: 63px;
+            background-color: $main-color;
+            border: none;
+            border-radius: 10px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+    &__img {
+        width: 866px;
+    }
+}

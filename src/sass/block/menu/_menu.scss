@@ -1,0 +1,98 @@
+.menu {
+    width: 1400px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        nav {
+            width: 700px;
+            height: 31px;
+            margin-top: 59px;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                li {
+                    :hover {
+                        text-decoration: underline;
+                    }
+                    a {
+                        text-decoration: none;
+                        position: absolute;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                        display: block;
+                        white-space: nowrap;
+                        word-wrap: normal;
+                    }
+                }
+            }
+        } 
+    }
+    &__hamburger {
+        top: 20px;
+        right: 20px;
+        position: absolute;
+        display: none;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        &-line {
+            display: block;
+            height: 5px;
+            width: 50px;
+            margin-top: 10px;
+            background-color: #ffffff;
+        }
+        &__menu {
+            position: fixed;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.7s;
+            top: 0;
+            left: -20px;
+            height: 100vh;
+            width: 70%;
+            background-color: #14274A;
+            z-index: 3;
+            &__nav {
+                display: flex;
+                flex-direction: column;
+                padding-left: 100px;
+                padding-top: 150px;
+                list-style-type: none;
+                li {
+                    margin-top: 20px;
+                    :hover {
+                        color: orange;
+                        transition: all 0.4s;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                        display: block;
+                    }
+                }
+            }
+        }
+        &__close-symbol {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            font-size: 40px;
+            font-weight: 500;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}

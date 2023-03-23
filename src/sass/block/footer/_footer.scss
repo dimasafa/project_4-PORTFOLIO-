@@ -1,0 +1,148 @@
+.footer {
+    background: url('../../../img/01-home/bottom-bg.png') center no-repeat;
+    height: 320px;
+    &__content {
+        display: block;
+        width: 1550px;
+        height: 111px;
+        margin: 0 auto;
+        padding-top: 144px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__adress-name {
+        display: block;
+        width: 118px;
+        height: 38px;
+        margin-bottom: 22px;
+    }
+    &__adress-title {
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.15em;
+        color: #FFFFFF;
+    }
+    &__adress-subtitle {
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 11px;
+        letter-spacing: 0.6em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__adress-adress {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    &__link {
+        width: 155px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        :hover {
+            transform: translateY(-1.5px);
+            transition: 0.6s all;
+        }
+        a {
+            text-decoration: none;
+        }
+        &-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F7F7F7;
+        }
+    }
+    &__linkBox {
+        padding-top: 8px;
+        width: 129px;
+        height: 82px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        :hover {
+            transform: translateY(-1.5px);
+            transition: 0.6s all;
+        }
+        &-facebook, &-twitter, &-instagram {
+            display: flex;
+            align-items: center;
+        }
+        &-facebookText, &-twitterText, &-instagramText {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #F7F7F7;
+            padding-left: 35px;
+        }
+        &-twitterText {
+            padding-left: 26px;
+        }
+        &-instagramText {
+            padding-left: 26px;
+        }
+
+    }
+    &__subscribe {
+        display: block;
+        width: 360px;
+        height: 101px;
+    }
+    &__subscribe-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__subscribeInput {
+        display: flex;
+        margin-top: 27px;
+        input {
+            padding-left: 30px;
+            background-color: #14274A;
+            width: 280px;
+            height: 46px;
+            border: 3px solid $main-color;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            
+        }
+        input::placeholder {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+        button {
+            width: 80px;
+            height: 52px;
+            background-color: $main-color;
+            border: none;
+            border-radius: 5px;
+            margin-left: -3px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #14274A;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.feedback {
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+    max-width: 1580px;
+    position: relative;
+
+    &__content {
+        display: block;
+        margin: 0 auto;
+        width: 1000px;
+        height: auto;
+        padding-top: 20px;
+    }
+    &__header {
+        margin-top: 80px;
+        font-family: 'Adobe Garamond Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        color: #14274A;
+        text-align: center;
+    }
+    &__text {
+        display: none;
+    }
+    &__text-active {
+        margin-top: 22px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: #14274A;
+        text-align: center;
+    }
+    &__name {
+        display: none;
+    }
+    &__name-active {
+        margin-top: 19px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #14274A;
+        text-align: center;
+    }
+    &__btn {
+        position: absolute;
+        top: 270px;
+        left: calc((100% - 110px)  / 2);
+        width: 121px;
+        display: flex;
+        justify-content: space-between;
+        :hover {
+            transform: translateY(7px);
+            transition: 0.6s all;
+        }
+        img {
+            cursor: pointer;
+        }
+    }
+}
